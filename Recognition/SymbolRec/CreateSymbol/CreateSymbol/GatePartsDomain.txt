@@ -1,9 +1,0 @@
-HMC Research 07
-labels for different parts of a gate
-backline 0 Blue
-frontarc 1 Brown
-backarc 2 Green
-context 3 Purple
-bubble 4 Red
-topline 5 Orange
-bottomline 6 Pink

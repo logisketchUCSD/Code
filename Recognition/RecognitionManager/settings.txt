@@ -1,5 +1,0 @@
-% Settings for recognition
-Directory = Initialization Files\
-FeaturesSingle = FeatureListSingle.txt
-FeaturesGroup = FeatureListGroup.txt
-FeatureAvgsAndStdDevs = featureAverages.txt
