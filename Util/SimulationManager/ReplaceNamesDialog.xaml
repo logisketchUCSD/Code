@@ -1,0 +1,27 @@
+﻿<Window x:Class="SimulationManager.ReplaceNamesDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             WindowStartupLocation="CenterOwner"
+             Title="ReplaceNamesDialog" 
+             SizeToContent="WidthAndHeight"
+             Icon="LogiSketch mini Icon.ico">
+    <StackPanel>
+        <Grid Name="Grid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Button Content="OK" HorizontalAlignment="Left" Margin="15,10,0,10" Height="30" Width="40" Click="okButton_Click" Grid.ColumnSpan="2" />
+            <Button Content="Cancel" HorizontalAlignment="Right" Margin="0,10,15,10" Height="30" Width="55" Click="cancelButton_Click" Grid.Column="1" />
+        </Grid>
+    </StackPanel>
+</Window>

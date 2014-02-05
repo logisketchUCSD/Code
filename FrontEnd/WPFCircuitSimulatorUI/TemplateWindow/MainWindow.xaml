@@ -1,0 +1,15 @@
+﻿<Window x:Class="TemplateWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Matched Template" Height="200" Width="250"
+        Icon="LogiSketch mini Icon.ico">
+    <Grid>
+        <DockPanel Name="dockPanel" Background="WhiteSmoke"
+                   HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                   ScrollViewer.CanContentScroll="True" >
+            <TextBlock Name="helpText" Text="Hover over a recognized gate to show the matched template" 
+                       DockPanel.Dock="Top" TextWrapping="Wrap"/>
+            <Image Name="imageShown" DockPanel.Dock="Left" />
+        </DockPanel>
+    </Grid>
+</Window>
